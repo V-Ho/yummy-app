@@ -6,6 +6,7 @@ export default class Search {
     this.query = query
   }
 
+  // all sync methods return a promise
   async getResults () {
     const proxy = 'https://cors-anywhere.herokuapp.com/'
     const key = '2239d7003b5947bf25bb80eff1082ca7'
