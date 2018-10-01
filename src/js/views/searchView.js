@@ -12,10 +12,6 @@ export const clearResults = () => {
 }
 
 // // Limit recipe title displayed to 17 letters
-// const limitRecTitle = (title) => {
-//   // put title into array of words
-//   // reduce method to count number of letters
-// }
 
 const limitRecTitle = (title) => {
   const result = title.split(' ').reduce((acc, currVal) => {
